@@ -15,7 +15,7 @@ script:
   - dotnet restore
   - dotnet build
   - sonar-scanner
-  - $HOME/.dotnet/tools/minicover instrument --sources Katas/**/*.cs --tests KatasTests/**/*.cs
+  - $HOME/.dotnet/tools/minicover instrument --sources "Katas/**/*.cs" --tests "KatasTests/**/*.cs"
   - $HOME/.dotnet/tools/minicover reset
   - dotnet test --no-build
 
@@ -23,6 +23,3 @@ after_success:
   - $HOME/.dotnet/tools/minicover uninstrument
   - $HOME/.dotnet/tools/minicover coberturareport
   - bash <(curl -s https://codecov.io/bash)
-
-notifications:
-  email: true
