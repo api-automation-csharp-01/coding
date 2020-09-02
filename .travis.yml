@@ -5,10 +5,16 @@ mono: none
 dist: xenial
 dotnet: 3.1
 
+addons:
+  sonarcloud:
+    organization: "api-automation-csharp-01"
+    token: ${SONAR_TOKEN}
+
 script:
   - dotnet tool install --global minicover
   - dotnet restore
   - dotnet build
+  - sonar-scanner
   - $HOME/.dotnet/tools/minicover instrument --sources Katas/**/*.cs --tests KatasTests/**/*.cs
   - $HOME/.dotnet/tools/minicover reset
   - dotnet test --no-build
