@@ -9,13 +9,14 @@ script:
   - dotnet tool install --global minicover
   - dotnet restore
   - dotnet build
-  - .dotnet/tools/minicover instrument --sources Katas/**/*.cs --tests KatasTests/**/*.cs
-  - .dotnet/tools/minicover reset
+  - ll
+  - $HOME/.dotnet/tools/minicover instrument --sources Katas/**/*.cs --tests KatasTests/**/*.cs
+  - $HOME/.dotnet/tools/minicover reset
   - dotnet test --no-build
 
 after_success:
-  - .dotnet/tools/minicover uninstrument
-  - .dotnet/tools/minicover coberturareport
+  - $HOME/.dotnet/tools/minicover uninstrument
+  - $HOME/.dotnet/tools/minicover coberturareport
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
