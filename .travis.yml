@@ -6,16 +6,16 @@ dist: xenial
 dotnet: 3.1
 
 script:
-  - dotnet tool install --global minicover
+  - dotnet tool install minicover
   - dotnet restore
   - dotnet build
-  - minicover instrument --sources Katas/**/*.cs --tests KatasTests/**/*.cs
-  - minicover reset
+  - dotnet minicover instrument --sources Katas/**/*.cs --tests KatasTests/**/*.cs
+  - dotnet minicover reset
   - dotnet test --no-build
 
 after_success:
-  - minicover uninstrument
-  - minicover coberturareport
+  - dotnet minicover uninstrument
+  - dotnet minicover coberturareport
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
