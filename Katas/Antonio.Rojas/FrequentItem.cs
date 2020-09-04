@@ -15,6 +15,11 @@
         /// <returns>Most frequest number count.</returns>
         public static int MostFrequentItemCount(int[] input)
         {
+            if (input.Length == 0)
+            {
+                return 0;
+            }
+
             var groups = input.GroupBy(x => x);
             var largest = groups.OrderByDescending(x => x.Count()).First();
             return largest.Count();

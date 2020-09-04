@@ -19,5 +19,16 @@
             int output = FrequentItem.MostFrequentItemCount(input);
             Assert.AreEqual(5, output);
         }
+
+        /// <summary>
+        /// Tests frequent item with empty input.
+        /// </summary>
+        [Test]
+        public void TestFrequestItem02()
+        {
+            int[] input = new int[] { };
+            int output = FrequentItem.MostFrequentItemCount(input);
+            Assert.AreEqual(0, output);
+        }
     }
 }
