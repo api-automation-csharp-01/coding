@@ -1,4 +1,4 @@
-﻿namespace Katas
+﻿namespace Katas.Alejandra.Neolopan
 {
     using System;
     using System.Collections.Generic;

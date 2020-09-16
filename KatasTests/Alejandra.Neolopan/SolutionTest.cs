@@ -1,8 +1,6 @@
 ﻿namespace KatasTests.Alejandra.Neolopan
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
+    using Katas.Alejandra.Neolopan;
     using NUnit.Framework;
 
     /// <summary>
@@ -27,7 +25,7 @@
         [TestCaseSource(typeof(SolutionTest), "BasicTestCases")]
         public void Basic_Test(int[] test, int expected)
         {
-            Assert.AreEqual(expected, Katas.MostFrequentItem.MostFrequentItemCount(test));
+            Assert.AreEqual(expected, MostFrequentItem.MostFrequentItemCount(test));
         }
     }
 }
