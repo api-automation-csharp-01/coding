@@ -48,7 +48,7 @@
         [Test]
         public void TestMostFrequentItem04()
         {
-            int[] input = new int[] { 3, 3, 3};
+            int[] input = new int[] { 3, 3, 3 };
             int output = MostFrequentItem.GetMostFrecuent(input);
             Assert.AreEqual(3, output);
         }

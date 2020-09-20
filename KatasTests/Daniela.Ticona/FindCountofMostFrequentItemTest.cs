@@ -58,7 +58,7 @@
         [Test]
         public void FindCountofMostFrequentItem05()
         {
-            int[] input = new int[] {3};
+            int[] input = new int[] { 3 };
             int output = FindCountofMostFrequentItem.MostFrequentItemCount(input);
             Assert.AreEqual(1, output);
         }
@@ -73,6 +73,5 @@
             int output = FindCountofMostFrequentItem.MostFrequentItemCount(input);
             Assert.AreEqual(1, output);
         }
-
     }
 }

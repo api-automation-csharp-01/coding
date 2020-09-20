@@ -40,7 +40,7 @@
         [Test]
         public void TestMostFrequentItem03()
         {
-            int[] input = new int[] {};
+            int[] input = new int[] { };
             int count = MostFrequentItem.GetMostFrequentItemCount(input);
             Assert.AreEqual(0, count);
         }
@@ -51,7 +51,7 @@
         [Test]
         public void TestMostFrequentItem04()
         {
-            int[] input = new int[] {5, 5, 5, 5, 5, 5, 5 };
+            int[] input = new int[] { 5, 5, 5, 5, 5, 5, 5 };
             int count = MostFrequentItem.GetMostFrequentItemCount(input);
             Assert.AreEqual(7, count);
         }

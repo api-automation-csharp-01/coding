@@ -38,6 +38,7 @@
                     mostFrequentNumber = input[i];
                 }
             }
+
             return longestOccurance;
         }
     }

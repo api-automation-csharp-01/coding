@@ -14,7 +14,6 @@
         /// </summary>
         /// <param name="collection">Input sequence.</param>
         /// <returns>occurrences.</returns>
-
         public static int MostFrequentItemCount(int[] collection)
         {
             var counts = new Dictionary<int, int>();

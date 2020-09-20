@@ -1,4 +1,4 @@
-﻿namespace KatasTests.Edmundo.Cossio
+﻿namespace Katas.Edmundo.Cossio
 {
     using System;
     using System.Collections.Generic;
@@ -8,7 +8,7 @@
     /// <summary>
     /// Defines Most Frequent Item Count class.
     /// </summary>
-    class MostFrequentItem
+    public class MostFrequentItem
     {
         /// <summary>
         /// Gets the Count of Most Frequent Item in an Array

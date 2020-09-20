@@ -15,7 +15,7 @@
         [Test]
         public void TestMostFrequentItem01()
         {
-            int[] input = new int[] {3, -1, -1, -1, 2, 3, -1, 3, -1, 2, 4, 9, 3};
+            int[] input = new int[] { 3, -1, -1, -1, 2, 3, -1, 3, -1, 2, 4, 9, 3 };
             int output = MostFrequentItem.GetMostFrequentItem(input);
             Assert.AreEqual(5, output);
         }
@@ -26,10 +26,9 @@
         [Test]
         public void TestMostFrequentItem02()
         {
-            int[] input = new int[] { 3, -1, -1};
+            int[] input = new int[] { 3, -1, -1 };
             int output = MostFrequentItem.GetMostFrequentItem(input);
             Assert.AreEqual(2, output);
-
         }
 
         /// <summary>

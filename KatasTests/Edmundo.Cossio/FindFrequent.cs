@@ -1,15 +1,12 @@
 ﻿namespace KatasTests.Edmundo.Cossio
 {
+    using Katas.Edmundo.Cossio;
     using NUnit.Framework;
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
 
     /// <summary>
     /// Defines The find frequent
     /// </summary>
-    class FindFrequent
+    public class FindFrequent
     {
         /// <summary>
         /// Find Count of Most Frequent Item in an Array.

@@ -7,7 +7,6 @@
     /// </summary>
     public class MostFrequentItem
     {
-
         /// <summary>
         /// Get most frecuent item.
         /// </summary>

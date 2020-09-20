@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Katas.Rodrigo.Espinoza
+﻿namespace Katas.Rodrigo.Espinoza
 {
+    using System.Linq;
+
     /// <summary>
     /// Define Find Count of Most Frequent Item in an Array.
     /// </summary>
@@ -17,7 +14,8 @@ namespace Katas.Rodrigo.Espinoza
         /// <returns>Max Qty.</returns>
         public static int MostFrequentItemCount(int[] collection)
         {
-            if (collection.Length == 0 || collection == null) {
+            if (collection.Length == 0 || collection == null)
+            {
                 return 0;
             }
 

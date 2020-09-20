@@ -3,7 +3,10 @@
     using Katas.Rodrigo.Espinoza;
     using NUnit.Framework;
 
-    class FindCountOfMostFrequentItemInAnArrayTest
+    /// <summary>
+    /// Defines tests for Most frequent item.
+    /// </summary>
+    public class FindCountOfMostFrequentItemInAnArrayTest
     {
         /// <summary>
         /// Tests FindCountOfMostFrequentItemInAnArray zero arrays.
