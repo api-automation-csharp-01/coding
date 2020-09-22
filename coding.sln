@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas", "Katas\Katas.csproj", "{F42F7A5F-92F7-4209-A36C-9EDF24237298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katas", "Katas\Katas.csproj", "{F42F7A5F-92F7-4209-A36C-9EDF24237298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatasTests", "KatasTests\KatasTests.csproj", "{273F6280-5DAB-4CBF-83A8-B1796F35FC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KatasTests", "KatasTests\KatasTests.csproj", "{273F6280-5DAB-4CBF-83A8-B1796F35FC52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B7CDE0A-E1D1-4C87-953D-F2878940BCB7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
