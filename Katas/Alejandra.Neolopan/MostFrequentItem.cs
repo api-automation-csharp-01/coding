@@ -1,7 +1,7 @@
 ﻿namespace Katas.Alejandra.Neolopan
 {
     using System.Linq;
-    
+
     /// <summary>
     /// Solve Katas exercise 1.
     /// </summary>

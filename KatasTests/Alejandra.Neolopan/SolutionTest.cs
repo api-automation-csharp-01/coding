@@ -1,8 +1,6 @@
 ﻿namespace KatasTests.Alejandra.Neolopan
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
+    using Katas.Alejandra.Neolopan;
     using NUnit.Framework;
 
     /// <summary>
