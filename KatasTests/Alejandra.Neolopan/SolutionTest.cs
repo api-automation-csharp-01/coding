@@ -25,7 +25,7 @@
         [TestCaseSource(typeof(SolutionTest), "BasicTestCases")]
         public void Basic_Test(int[] test, int expected)
         {
-            Assert.AreEqual(expected, MostFrequentItem.MostFrequentItemCount(test));
+            Assert.AreEqual(expected, Katas.Alejandra.Neolopan.MostFrequentItem.MostFrequentItemCount(test));
         }
     }
 }

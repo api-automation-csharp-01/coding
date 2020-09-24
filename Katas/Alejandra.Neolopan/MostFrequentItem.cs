@@ -1,9 +1,6 @@
 ﻿namespace Katas.Alejandra.Neolopan
 {
-    using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
 
     /// <summary>
     /// Solve Katas exercise 1.
